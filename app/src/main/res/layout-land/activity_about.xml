@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.AboutActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puzzle1 15 App"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Copyright © 2020 - Template Puzzle 15  is powered by Jagito"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="textStart"
+        android:text="The 15-puzzle (Game of Fifteen) is a sliding puzzle that consists of a frame
+        of numbered square tiles in random order with one tile missing. The puzzle also exists in
+        other sizes, creating a lot of new possibilities."
+        android:gravity="start" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home page: example.com"
+        android:textStyle="italic"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
